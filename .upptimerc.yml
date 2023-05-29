@@ -1,3 +1,5 @@
+# https://upptime.js.org/docs/configuration
+
 owner: wanderer-moe # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 
@@ -20,12 +22,12 @@ sites:
       - 404
 
 status-website:
-  theme: https://status.wanderer.moe/theme.css
+  theme: https://status.wanderer.moe/dark-theme.css
   cname: status.wanderer.moe
   logoUrl: https://wanderer.moe/favicon.png
   name: status.wanderer.moe
   introTitle: "wanderer.moe Status Page"
-  introMessage: This page monitors [wanderer.moe](https://wanderer.moe) and its other components to check for any downtime. All outages are reported here and on the [discord server](https://discord.wanderer.moe/).
+  introMessage: This page consistently monitors [wanderer.moe](https://wanderer.moe) & its other components to check for any downtime. All outages are reported here and on the [discord server](https://discord.wanderer.moe/).
   navbar:
     - title: Status
       href: /
@@ -35,6 +37,3 @@ commitMessages:
   summaryJson: "chore: update status summary [skip ci] [upptime]"
   statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
   graphsUpdate: "chore: update graphs [skip ci] [upptime]"
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
