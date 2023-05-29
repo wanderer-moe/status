@@ -22,7 +22,7 @@ sites:
       - 404
 
 status-website:
-  themeUrl: https://status.wanderer.moe/dark-theme.css
+  themeUrl: https://raw.githubusercontent.com/wanderer-moe/status/master/assets/dark-theme.css
   cname: status.wanderer.moe
   logoUrl: https://wanderer.moe/favicon.png
   name: status.wanderer.moe
