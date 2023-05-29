@@ -20,12 +20,12 @@ sites:
       - 404
 
 status-website:
-  theme: dark # https://wanderer.moe/theme.css
+  theme: https://status.wanderer.moe/theme.css
   cname: status.wanderer.moe
   logoUrl: https://wanderer.moe/favicon.png
   name: status.wanderer.moe
   introTitle: "wanderer.moe Status Page"
-  introMessage: This page monitors [wanderer.moe](https://wanderer.moe) and its other components to check for any downtime. All outages & updates can be recorded both here and on the [discord server](https://discord.wanderer.moe/).
+  introMessage: This page monitors [wanderer.moe](https://wanderer.moe) and its other components to check for any downtime. All outages are reported here and on the [discord server](https://discord.wanderer.moe/).
   navbar:
     - title: Status
       href: /
