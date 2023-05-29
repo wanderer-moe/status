@@ -1,31 +1,38 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: wanderer-moe # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: wanderer.moe
+    url: https://wanderer.moe
+    assignees:
+      - dromzeh
+  - name: api
+    url: https://api.wanderer.moe
+    assignees:
+      - dromzeh
+  - name: cdn
+    url: https://cdn.wanderer.moe
+    assignees:
+      - dromzeh
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
 
 status-website:
+  theme: dark
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.wanderer.moe
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://wanderer.moe/favicon.png
+  name: status.wanderer.moe
+  introTitle: "wanderer.moe Status Page"
+  introMessage: This page monitors [wanderer.moe](https://wanderer.moe) and its other components to check for any downtime. All outages & updates can be recorded both here and on the [discord server](https://discord.wanderer.moe/).
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
