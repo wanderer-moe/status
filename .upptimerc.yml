@@ -22,9 +22,9 @@ sites:
       - 404
 
 status-website:
-  theme: dark
+  # theme: dark
   # https://upptime.js.org/docs/configuration/#theme ?????????
-  # themeUrl: https://status.wanderer.moe/dark-theme.css
+  themeUrl: https://cdn.statically.io/gh/wanderer-moe/status/master/assets/dark-theme.css # see upptime/upptime/issues/468
   cname: status.wanderer.moe
   logoUrl: https://wanderer.moe/favicon.png
   name: status.wanderer.moe
