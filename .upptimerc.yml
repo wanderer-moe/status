@@ -1,4 +1,3 @@
-# Change these first
 owner: wanderer-moe # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 
@@ -21,11 +20,8 @@ sites:
       - 404
 
 status-website:
-  theme: dark
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  theme: dark # https://wanderer.moe/theme.css
   cname: status.wanderer.moe
-  # baseUrl: /your-repo-name
   logoUrl: https://wanderer.moe/favicon.png
   name: status.wanderer.moe
   introTitle: "wanderer.moe Status Page"
@@ -33,6 +29,12 @@ status-website:
   navbar:
     - title: Status
       href: /
+
+commitMessages:
+  readmeContent: "chore: update summary in `README` [skip ci] [upptime]"
+  summaryJson: "chore: update status summary [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: "chore: update graphs [skip ci] [upptime]"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
