@@ -33,9 +33,3 @@ status-website:
   navbar:
     - title: Status
       href: /
-
-commitMessages:
-  readmeContent: "chore: update summary in `README` [skip ci] [upptime]"
-  summaryJson: "chore: update status summary [skip ci] [upptime]"
-  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
-  graphsUpdate: "chore: update graphs [skip ci] [upptime]"
