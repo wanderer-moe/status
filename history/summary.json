@@ -4,19 +4,19 @@
     "url": "https://wanderer.moe",
     "icon": "https://icons.duckduckgo.com/ip3/wanderer.moe.ico",
     "slug": "wanderer-moe",
-    "status": "up",
-    "uptime": "99.73%",
-    "uptimeDay": "96.17%",
-    "uptimeWeek": "99.45%",
-    "uptimeMonth": "99.73%",
-    "uptimeYear": "99.73%",
-    "time": 1728,
-    "timeDay": 1287,
-    "timeWeek": 1401,
-    "timeMonth": 1728,
-    "timeYear": 1728,
+    "status": "down",
+    "uptime": "99.54%",
+    "uptimeDay": "93.59%",
+    "uptimeWeek": "99.08%",
+    "uptimeMonth": "99.54%",
+    "uptimeYear": "99.54%",
+    "time": 1742,
+    "timeDay": 1409,
+    "timeWeek": 1453,
+    "timeMonth": 1742,
+    "timeYear": 1742,
     "dailyMinutesDown": {
-      "2023-06-12": 55
+      "2023-06-12": 92
     }
   },
   {
